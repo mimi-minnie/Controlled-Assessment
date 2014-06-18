@@ -2,6 +2,9 @@ import task1 as t1
 import unittest
 
 class TestSequenceFunctions(unittest.TestCase):
+    '''
+    the setup method is run before each test, this is to make sure we know what the rates are during testing
+    '''
     def setup(self):
         t1.rates = [1, 2, 3, 4]
         
