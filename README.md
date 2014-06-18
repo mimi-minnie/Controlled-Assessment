@@ -1,6 +1,8 @@
 #Controlled Assessment: Task 1
 ==============================
-##What I Will Need:
+##task 1
+###design
+####requirements
 
 1) The exchange rates need to be able to be changed by user.
 
@@ -10,7 +12,7 @@
 
 4) The returned figure should be to two decimal places.
 
-##Pseudocode:
+####Pseudocode:
 
 ```
 BEGIN
@@ -28,7 +30,7 @@ ELSE:
 ...
 ```
 
-##verables
+####verables
 Variables used | type | discussion
 ----|----|----
 currencyFrom|intger|
