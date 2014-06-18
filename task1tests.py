@@ -3,10 +3,10 @@ import unittest
 
 class TestSequenceFunctions(unittest.TestCase):
     def setup(self):
-        pass
+        t1.rates = [1, 2, 3, 4]
         
     def test1(self):
-        pass
+        assert(t1.rates[0] == 1) 
     
    
 if __name__ == '__main__':
