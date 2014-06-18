@@ -37,3 +37,4 @@ currencyFrom|intger|
 currencyTo|intger|
 symbols|list of strings|
 rate|list of floats|
+
