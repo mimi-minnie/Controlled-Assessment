@@ -6,7 +6,7 @@ class TestSequenceFunctions(unittest.TestCase):
         t1.rates = [1, 2, 3, 4]
         
     def test1(self):
-        assert(t1.rates[0] == 1) 
+        assert(t1.rates[0] == 1) #test 1 fails pounds dosen't = 1 
     
    
 if __name__ == '__main__':
